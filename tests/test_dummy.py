@@ -10,7 +10,7 @@ Run with PYTHONPATH=. python tests/test_dummy.py
 class TestDummy(unittest.TestCase):
 
     def test_fun(self):
-        weekday1 = calculate(2020, 2, 29)
+        weekday1 = calculate(2200, 2, 29)
         self.assertEqual(weekday1, -1)
 
         weekday2 = calculate(2012, 2, 29)
